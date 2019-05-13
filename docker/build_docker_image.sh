@@ -2,6 +2,8 @@
 #
 # Build and Tag Docker Image (Locally)
 #
+# Example: sh build_docker_image.sh --image="some_image" --version="1.0.1"
+#
 
 DOCKERFILE="."
 IMAGE_NAME=""
