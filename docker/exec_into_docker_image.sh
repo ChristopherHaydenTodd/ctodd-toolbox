@@ -2,6 +2,8 @@
 #
 # Exec Into Image By Container or Image ID
 #
+# Example: sh exec_into_docker_image.sh --image="some_image:1.0.1" --shell="/bin/sh"
+#
 
 CONTAINER_ID=""
 IMAGE=""
