@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #
-# Run Docker Image Locally (using the command)
-#
+# Run Docker Image Locally (using the command or with a specified command)'
 #
 # Example: sh push_docker_image_to_repo.sh --image="some_image" --version="1.0.1" \
 #     --repo=https://localhost:22222 --command="/bin/bash"
