@@ -2,6 +2,8 @@
 #
 # Get IP Address from Docker Container
 #
+# Example: sh get_docker_container_ip_address.sh--image="wordpress_wordpress_1"
+#
 
 CONTAINER_ID=""
 IMAGE=""
