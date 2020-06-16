@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # -----------------------------------------------------------------------------
-# Get EC2 Instance metadata from on the host.
+# Get EC2 Instance metadata from inside a EC2 instance running an amazon linux AMI
 #
 # Arguments:
 # -h [value], --help [value]
 #    Get help and exit
 #
 # Example:
-# bash get_instance_metadata.sh
+# bash get_instance_metadata_on_aws_ami_instance.sh
 # -----------------------------------------------------------------------------
 
 
@@ -35,7 +35,7 @@ do
     key="$1"
     case $key in
         -h|--help)
-        log "INFO" "bash bash_script.sh --required-arg=value [-h] [--optional-arg=value] [--flag]"
+        log "INFO" "bash get_instance_metadata_on_aws_ami_instance.sh"
         exit 0
         ;;
         *)
